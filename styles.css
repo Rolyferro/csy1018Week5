@@ -1,39 +1,44 @@
-a{
+* {
     margin: 0;
     padding: 0;
-}
+  }
 
-nav{
+  nav {
     margin: 50px;
-}
+  }
 
-ul{
+  ul {
     overflow: auto;
     list-style-type: none;
-}
+  }
 
-li{
-    height: 20px;
+  li {
+    height: 25px;
     float: left;
     margin-right: 0px;
-    border-right: 1px solid #aaa;
-    padding: 0 2px;
-}
-
-li:last-child{
-border-right: 1px;
-}
-
-li a {
+    border-right: 1px solid 
+   #aaa;
+    padding: 0 20px;
+  }
+ 
+  li:last-child {
+    border-right: none;
+  }
+ 
+  li a {
     text-decoration: none;
     color: #ccc;
-    font: 25px/1 helvetica, sans-serif;
-}
-
-li a:hover{
+    font: 24px/1 Helvetica, Verdana, sans-serif;
+    text-transform: lowercase;
+    transition: all 0.5s ease;
+  }
+ 
+  li a:hover {
     color: #666;
-}
+  }
 
-li.active a{
+  li.active a {
     font-weight: bold;
-}
+    color: #333;2111
+  }
+CSS fr
